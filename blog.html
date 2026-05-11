@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Blog Website</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="home">
+
+        <!-- Blog Section -->
+        <section class="blog-container" id="blog">
+
+            <article>
+                <h2>First Blog Post</h2>
+                <p>
+                    Welcome to my blog website. This is the first sample blog post
+                    where I share ideas and experiences about web development.
+                </p>
+
+                <p>
+                    HTML and CSS are essential technologies for creating responsive
+                    and visually appealing websites for users across all devices.
+                </p>
+            </article>
+
+            <article>
+                <h2>Second Blog Post</h2>
+                <p>
+                    Responsive web design allows webpages to adjust smoothly to
+                    different screen sizes such as phones, tablets, and desktops.
+                </p>
+
+                <p>
+                    Using Flexbox and media queries helps organize content neatly
+                    while improving readability and user experience.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Student ID: 12345678</p>
+    </footer>
+
+</body>
+</html>
